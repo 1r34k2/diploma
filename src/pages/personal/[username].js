@@ -87,7 +87,7 @@ export default function Component(props) {
           <div className={styles.wrapper}>
             <div className={styles.login_container}>
                 <div className={styles.login}>
-                      <h1>Sorry, you can't access that page</h1>
+                      <h1>Sorry, you can&apos;t access that page</h1>
                       <button className={styles.big_btn} onClick={function(){redir(props.username)}}>Get back to my page</button>
                   </div>
               </div>
